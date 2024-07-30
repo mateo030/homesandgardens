@@ -1,0 +1,231 @@
+*{
+    font-family: "Rubik", Courier, monospace;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.1);
+    color: white;
+    z-index: 10;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.rubik{
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+.logo{
+    color: white;
+}
+
+.navigation{
+    padding-top: 15px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+li{
+    list-style-type: none;
+    display: inline;
+    padding-left: 2rem;
+    font-size: 16px;
+    
+}
+
+ul{
+    color: white;
+    cursor: pointer;
+}
+
+.hero{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+}
+
+.hero-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); 
+    z-index: -1; 
+}
+
+.hero .hero-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.hero-centered{
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    font-size: 64px;
+    color: white;
+}
+
+.hero-centered h1{
+    font-weight: 400;
+}
+
+.hero-centered p{
+    font-weight: 200;
+    font-size: 32px;
+}
+
+.subheading{
+    display: flex;
+    flex-direction: column;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    text-align: center;
+    padding: 2rem;
+}
+
+.subheading h1{
+    font-size: 32px;
+    font-weight: 400;
+    border-color: gray;
+    margin: 0 auto;
+}
+
+.subheading p{
+    font-size: 24px;
+    font-weight: 300;
+    max-width: 80%;
+    margin: 0 auto;
+    margin-top: 4rem;
+}
+
+.filler{
+    text-align: center;
+}
+
+.introduction{
+    padding: 4rem;
+}
+
+.introduction h1{
+    font-size: 32px;
+    font-weight: 400;
+    margin: 0 auto;
+    text-align: center;
+    padding: 2rem;
+}
+
+.introduction .text p{
+    font-size: 24px;
+    font-weight: 300;
+    max-width: 70%;
+    margin: 0 auto;
+    margin-top: 4rem;
+}
+
+.about-us{
+    display: flex;
+    padding: 2rem;
+}
+
+.contact {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Centered content */
+    padding: 4rem;
+}
+
+/* Container for the contact form */
+.contact-us {
+    max-width: 40%;
+    width: 100%; /* Ensure it adapts to different screen sizes */
+}
+
+/* Contact heading styles */
+.contact-us h1 {
+    font-size: 32px;
+    font-weight: 400;
+}
+
+/* Form element styles */
+.contact form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Label styles */
+.contact form label {
+    width: 100%;
+    margin: 10px 0 5px;
+    text-align: left;
+    font-weight: 400;
+}
+
+/* Input and textarea styles */
+.contact form input, .contact form textarea {
+    width: 100%;
+    padding: 10px; /* Adjusted padding for a more compact form */
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+/* Textarea specific styles */
+.contact form textarea {
+    height: 100px; /* Fixed height for the textarea */
+    resize: vertical; /* Allow vertical resizing */
+}
+
+/* Button styles */
+.contact form button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px; /* Added margin to separate from the textarea */
+}
+
+/* Button hover effect */
+.contact form button:hover {
+    background-color: #555;
+}
+
+footer{
+    text-align: center;
+    padding: 4rem;
+}

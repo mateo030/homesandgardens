@@ -1,0 +1,140 @@
+*{
+    font-family: "Rubik", Courier, monospace;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 1);
+    color: white;
+    z-index: 10;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.rubik{
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+.logo{
+    color: white;
+}
+
+.navigation{
+    padding-top: 15px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+li{
+    list-style-type: none;
+    display: inline;
+    padding-left: 2rem;
+    font-size: 16px;
+    
+}
+
+.subheading{
+    margin-top: 8rem;
+    margin-bottom: 4rem;
+    padding: 2rem;
+    text-align: center;
+}
+
+.subheading h1{
+    font-size: 32px;
+    font-weight: 400;
+    border-color: gray;
+    margin: 0 auto;
+}
+
+.subheading p{
+    font-size: 24px;
+    font-weight: 300;
+    max-width: 80%;
+    margin: 0 auto;
+    margin-top: 4rem;
+}
+
+.icons-container{
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+.icons{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.text{
+    font-size: 24px;
+    padding-top: 2rem;
+}
+
+.staff-container{
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+
+.staff-container img{
+    object-fit: cover;
+}
+
+.staff-container p{
+    margin-top: 10rem;
+    max-width: 45%;
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.locations{
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    max-width: 50%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.locations img{
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+
+.font{
+    font-size: 24px;
+    font-weight: 300;
+}
+
+footer{
+    text-align: center;
+    padding: 4rem;
+}
